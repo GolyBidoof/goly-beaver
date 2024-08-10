@@ -1,0 +1,176 @@
+body {
+  background-color: black;
+  overflow: hidden;
+}
+
+.background,
+.background-index {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  aspect-ratio: 21 / 9;
+  width: 100%;
+  font-family: "Libre Caslon Display", serif;
+  font-weight: 400;
+  font-style: italic;
+  color: white;
+}
+
+.background-index {
+  background-color: rgb(104, 65, 186);
+}
+
+.character {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 18vw;
+  color: white;
+  font-family: "Zen Old Mincho", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -3vw;
+  text-shadow: 0 0 0.1vw #ffffff, 0 0 0.2vw #ffffff, 0 0 0.3vw #ffffff;
+}
+
+a {
+  color: inherit;
+}
+
+.top-text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  right: 0;
+  left: 0;
+  font-size: 2vw;
+  margin-top: -14vw;
+  text-shadow: 0 0 0.06vw #ffffff, 0 0 0.08vw #ffffff, 0 0 0.1vw #ffffff;
+}
+
+.bottom-text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  right: 0;
+  left: 0;
+  font-size: 1.5vw;
+  margin-top: -29vw;
+  text-shadow: 0 0 0.04vw #ffffff, 0 0 0.06vw #ffffff, 0 0 0.08vw #ffffff;
+}
+
+.bottom-lower-text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  right: 0;
+  left: 0;
+  font-size: 1.5vw;
+  margin-top: -26vw;
+  text-shadow: 0 0 0.04vw #ffffff, 0 0 0.06vw #ffffff, 0 0 0.08vw #ffffff;
+}
+
+.main,
+.main2,
+.main3,
+.main4,
+.main5,
+.main6,
+.main7,
+.main8,
+.main9,
+.main10 {
+  background-color: black;
+  animation: fadein 1s;
+  width: 100%;
+  height: 100%;
+  background-size: 100% auto;
+}
+
+.main {
+  background-image: url("background-1.avif");
+}
+
+.main2 {
+  background-image: url("background-2.avif");
+}
+
+.main3 {
+  background-image: url("background-3.avif");
+}
+
+.main4 {
+  background-image: url("background-4.avif");
+}
+
+.main5 {
+  background-image: url("background-5.avif");
+}
+
+.main6 {
+  background-image: url("background-6.avif");
+}
+
+.main7 {
+  background-image: url("background-7.avif");
+}
+
+.main8 {
+  background-image: url("background-8.avif");
+}
+
+.main9 {
+  background-image: url("background-9.avif");
+}
+
+.main10 {
+  background-image: url("background-10.avif");
+}
+
+.pretentious-text-left {
+  position: absolute;
+  top: 12vw;
+  left: 5%;
+  font-size: 1.5vw;
+  width: 30vw;
+  color: white;
+  animation: fadein 3s;
+  text-shadow: 0 0 1vw #000, 0 0 1vw #000, 0 0 0.6vw #000;
+}
+
+.pretentious-text-right {
+  position: absolute;
+  top: 12vw;
+  text-align: right;
+  right: 5%;
+  font-size: 1.5vw;
+  width: 30vw;
+  color: white;
+  animation: fadein 3s;
+  text-shadow: 0 0 1vw #000, 0 0 1vw #000, 0 0 0.6vw #000;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.dive-deeper {
+  position: absolute;
+  top: 39vw;
+  right: 2vw;
+  font-size: 2vw;
+  text-shadow: 0 0 1vw #000, 0 0 1vw #000, 0 0 0.6vw #000;
+}
