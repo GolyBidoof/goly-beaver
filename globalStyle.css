@@ -6,9 +6,9 @@ body {
 .background,
 .background-index {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto 0;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
   aspect-ratio: 21 / 9;
   width: 100%;
   font-family: "Libre Caslon Display", serif;
